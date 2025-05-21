@@ -1,0 +1,33 @@
+{
+  "name": "text-to-study-llm",
+  "version": "1.0.0",
+  "description": "Simple tool to test out development workflows using LLMs. One of my favorite hobbies is studying languages, but it can be difficult to start getting comprehensible input while you are starting out. This project allows you to feed images (book pages, comics, movie script, etc) to an LLM to generate an Anki deck for your media",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "bs": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taeuscherpferd/text-to-study-llm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taeuscherpferd/text-to-study-llm/issues"
+  },
+  "homepage": "https://github.com/taeuscherpferd/text-to-study-llm#readme",
+  "devDependencies": {
+    "@types/node": "^22.15.20",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "ollama": "^0.5.15"
+  }
+}
